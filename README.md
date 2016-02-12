@@ -1,3 +1,3 @@
-# Web Project
+# Personal Web Project
 
 Site for an architectural firm
