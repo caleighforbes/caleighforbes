@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700); 
+ * {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+ }
+
+h1 {
+  display: inline-block;
+  width: 33.33%;
+  font-size: 1.5em;
+}
+
+.title-name {
+  position: fixed;
+  margin-left: 33.33%; 
+  text-align: center;
+  top: 0px;
+  clear: both;
+  text-transform: uppercase;
+}
+
+.title-architecture {
+  position: fixed;
+  text-align: right;
+  top: 0px;
+  right: 25px;
+  clear: both;
+  text-transform: uppercase;
+}
+
+ /*//// MAIN NAVIGATION /////*/
+#main-nav {
+  position: fixed;
+  top: 75px;
+  right: 25px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.news, .projects, .about, .contact {
+  display: block;
+}
+
+#main-nav a:link, #main-nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#main-nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: 400;
+}
+ /*//// END MAIN NAVIGATION /////*/
+
+ /*//// SUB-NAVIGATION /////*/
+#sub-nav {
+  position: fixed;
+  top: 200px;
+  right: 25px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.all, .residential, .arts-culture, .civic-institutional, .educational, .commercial, .competition, .interiors {
+  display: block;
+}
+
+.firm, .bios, .awards, .press {
+  display: block;
+}
+#sub-nav a:link, #sub-nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#sub-nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+ /*//// END SUB-NAVIGATION /////*/
