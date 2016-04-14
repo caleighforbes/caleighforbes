@@ -1,0 +1,28 @@
+
+
+/*//// HEADER ////*/
+
+@media (max-width: 875px) {
+  .title-architecture {
+    position: initial;
+    text-align: center;
+    letter-spacing: .4em;
+  }
+  h1 {
+    margin: 0;
+  }
+
+@media (max-width: 925px) {
+  .news-image {
+  clear: both;
+  display: block;
+  }
+
+  .news-paragraph {
+  clear: both;
+  display: block;
+  float: left;
+  }
+}
+
+}
