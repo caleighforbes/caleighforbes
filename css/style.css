@@ -118,7 +118,7 @@ h1 {
   display: inline-block;
   width: 50%;
   margin-left: 25%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .contact-info {
@@ -133,7 +133,7 @@ h1 {
   display: inline-block;
   width: 50%;
   margin-left: 25%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .about-image {
@@ -141,15 +141,33 @@ h1 {
   width: 100%;
 }
 
+.awards-list {
+  display: inline-block;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.awards-list h3 {
+  font-weight: 400;
+}
 /*/// END ABOUT PAGES ///*/
 
 /*/// NEWS PAGE ///*/
+
+.news-item-1 {
+  display: inline-block;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
 
 .news-item {
   display: inline-block;
   width: 60%;
   margin-left: 20%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 .news-image {
@@ -270,6 +288,7 @@ h1 {
   width: 60%;
   margin-left: 20%;
   margin-right; 20%;
+  margin-top: 10%;
 }
 
 .slick-slide img {
